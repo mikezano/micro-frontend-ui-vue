@@ -1,7 +1,7 @@
 import { createApp } from 'vue';
 import App from './App';
-import './css/global.css';
-import 'open-iconic/font/css/open-iconic-bootstrap.min.css';
+
+import 'styles/StylesApp';
 
 const mount = (el) => {
   const app = createApp(App);
