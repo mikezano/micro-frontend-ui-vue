@@ -9,7 +9,7 @@ const prodConfig = {
   mode: 'production',
   output: {
     filename: '[name].[contenthash].js',
-    publicPath: '/helloVue/latest/',
+    publicPath: '/VueApp/latest/',
   },
   plugins: [
     new ModuleFederationPlugin({
@@ -19,7 +19,7 @@ const prodConfig = {
         './VueApp': './src/bootstrap',
       },
       remotes: {
-        styles: `styles@${domain}/helloStyles/latest/remoteEntry.js`,
+        styles: `styles@${domain}/StylesApp/latest/remoteEntry.js`,
       },
       shared: packageJson.dependencies,
     }),
