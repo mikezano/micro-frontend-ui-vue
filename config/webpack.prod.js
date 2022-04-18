@@ -19,7 +19,7 @@ const prodConfig = {
         './VueApp': './src/bootstrap',
       },
       remotes: {
-        styles: `styles@${domain}/Styles/latest/remoteEntry.js`,
+        styles: `styles@${domain}/helloStyles/latest/remoteEntry.js`,
       },
       shared: packageJson.dependencies,
     }),
