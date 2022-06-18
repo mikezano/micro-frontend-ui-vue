@@ -15,6 +15,7 @@
       <div class="card">
         <Dropdown />
       </div>
+      <Toggle />
     </template>
   </LayoutAsideMain>
 </template>
@@ -23,6 +24,7 @@
 import Button from './Button.vue';
 import Dropdown from './components/Dropdown.vue';
 import LayoutAsideMain from './components/LayoutAsideMain.vue';
+import Toggle from './components/Toggle.vue';
 export default {
   data() {
     return { message: 'Hello Vue!' };
@@ -31,6 +33,7 @@ export default {
     Button,
     LayoutAsideMain,
     Dropdown,
+    Toggle,
   },
 };
 </script>

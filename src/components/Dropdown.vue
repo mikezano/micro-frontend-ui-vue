@@ -14,6 +14,7 @@
         <li class="dropdown__list-item">Item 3</li>
         <li class="dropdown__list-item">Item 4</li>
         <li class="dropdown__list-item">Item 5</li>
+        <li class="dropdown__list-item">Item 6</li>
       </ul>
     </Transition>
   </div>

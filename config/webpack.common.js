@@ -12,6 +12,13 @@ module.exports = {
         use: 'vue-loader',
       },
       {
+        test: /\.ts$/,
+        loader: 'ts-loader',
+        options: {
+          appendTsSuffixTo: [/\.vue$/],
+        },
+      },
+      {
         test: /\.m?js$/,
         exclude: /node_modules/,
         use: {
